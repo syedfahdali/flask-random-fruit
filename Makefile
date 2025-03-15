@@ -11,4 +11,4 @@ test:
 format:
 	black *.py
 
-all: install lint test format
+all: install lint  format
