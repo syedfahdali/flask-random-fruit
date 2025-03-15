@@ -10,7 +10,7 @@ jobs:
       with:
         python-version: 3.9.21
     - name: Install dependencies
-      run: |
+      run: | 
         make install
     - name: Format code with Python black
       run: |
